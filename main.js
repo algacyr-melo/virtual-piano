@@ -7,7 +7,7 @@ let volumeInputEl = document.querySelector(".volume-slider input");
 function playTune(key) {
 	tuneAudio.src = `tunes/${key}.wav`;
 
-	let clickedKeyEl = document.querySelector(`[data-key=${key}`);
+	let clickedKeyEl = document.querySelector(`[data-key="${key}"`);
 	clickedKeyEl.classList.add("active");
 	setTimeout(() => { clickedKeyEl.classList.remove("active"), 200});
 

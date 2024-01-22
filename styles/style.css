@@ -67,13 +67,7 @@ header .column span {
 }
 
 .hide-keys input:checked::before {
-	width: 20px;
-	height: 20px;
 	background-color: #fff;
-	border-radius: inherit;
-
-	content: "";
-	position: absolute;
 	left: 2.1rem;
 }
 
